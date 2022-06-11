@@ -1,0 +1,8 @@
+package TestRunner;
+import org.junit.runner.RunWith;
+
+
+@RunWith(cucumber.class)
+public class Run { 
+/*this class will be empty*/
+}

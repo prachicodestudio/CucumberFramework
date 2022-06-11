@@ -1,0 +1,60 @@
+package TestRunner;
+
+
+//import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
+@RunWith(Cucumber.class)
+
+@CucumberOptions
+(
+		stepNotifications =true,
+		features=".//Feature/Customers.feature", //locate the Feature file in the project folder structure
+
+		glue="StepDefinition", /*it helps Cucumber to locate theStep Definition file. Whenever Cucumber encounters a Step, it looks for a Step Definition inside all the files present in the folder mentioned in Glue Option.*/
+		dryRun=false,
+		monochrome=true,
+		//plugin = { "progress" }
+
+	//	plugin= {"pretty","html:test-output"},
+		plugin = { "pretty", "json:target/cucumber-reports/reportsJson1.json","html:target/cucumber-reports/reports1.html","junit:target/cucumber-reports/reportsXML1.xml"}
+	//	plugin={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		
+		//	plugin = { "pretty", "json:target/cucumber-reports/reportsJson.json"}
+	//	plugin = { "pretty", "junit:target/cucumber-reports/reportsXML.xml"}
+		//publish = true
+		) 
+
+public class Run { 
+/*This class will be empty */
+}
+
+/*
+ * DryRun: This option can either set as true or false (default value is false). 
+ * If it is set as true, it means that Cucumber will only checks that every 
+ * Step mentioned in the Feature File have corresponding code written in 
+ * Step Definition file or not. So in case any of the function is missed in 
+ * the Step Definition for any Step in Feature File, it will give us the message.
+ *  So If you writing scenarios first and then implementing step definitions then add dryRun = true.
+ 
+ *  Monochrome: This option can either set as true or false 
+ *  (default value is false). If it is set as true, it means that the console 
+ *  output for the Cucumber test are much more readable. 
+ *  And if it is set as false, then the console output is not as readable as it 
+ *  should be. 
+ *  For practice just add the code ‘monochrome = true‘ in TestRunner class.
+ *  
+ *  Plugin: plugin Option is used to specify different formatting options for the output reports. Various options that can be used as for-matters are:
+Note – Format option is deprecated . Use Plugin in place of that.
+
+A- Pretty: Prints the Gherkin source with additional colors and stack traces for errors.
+ B- HTML: This will generate a HTML report at the location mentioned in the for-matter itself.
+C- JSON: This report contains all the information from the gherkin source in JSON Format. 
+This report is meant to be post-processed into another visual format by 3rd party tools such as Cucumber Jenkins. 
+ D- JUnit: This report generates XML files just like Apache Ant’s JUnit report task. 
+ This XML format is understood by most Continuous Integration servers, who will use it to generate visual reports.
+ *  
+ *  */
+
+
+
+//dryRun=true // mapping of feature files steps with step definition files
+//monochrome=true,//remove unnecessary characters in the console window
