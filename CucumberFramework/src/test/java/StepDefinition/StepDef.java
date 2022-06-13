@@ -1,9 +1,11 @@
 package StepDefinition;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import PageObject.AddNewCustomerPage;
 import PageObject.LoginPage;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -12,6 +14,7 @@ public class StepDef {
 
 	public WebDriver driver;
 	public LoginPage loginPg;
+	public AddNewCustomerPage addNewCustPg;
 
 
 	@Given("User Launch Chrome browser")
@@ -20,6 +23,8 @@ public class StepDef {
 		driver = new ChromeDriver();
 
 		loginPg= new LoginPage(driver);
+		addNewCustPg = new AddNewCustomerPage(driver);
+
 	}
 
 	@When("User opens URL {string}")
@@ -38,6 +43,7 @@ public class StepDef {
 		loginPg.clickOnLoginButton();
 	}
 
+	//////////Login feature///////////////////////////
 	@Then("Page Title should be {string}")
 	public void page_title_should_be(String expectedTitle) {
 		String actualTitle=driver.getTitle();
@@ -64,6 +70,91 @@ public class StepDef {
 	public void close_browser() {
 		driver.close();
 		driver.quit();
+	}
+
+
+	///////////////////////////Add new customer/////////////////////
+
+
+	@Then("User can view Dashboad")
+	public void user_can_view_dashboad() {
+		String actualTitle = addNewCustPg.getPageTitle();
+		String expectedTitle = "Dashboard / nopCommerce administration";
+
+		if(actualTitle.equals(expectedTitle))
+		{
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+	}
+
+	@When("User click on customers Menu")
+	public void user_click_on_customers_menu() {
+		addNewCustPg.clickOnCustomersMenu();
+	}
+
+	@When("click on customers Menu Item")
+	public void click_on_customers_menu_item() {
+		addNewCustPg.clickOnCustomersMenuItem();
+	}
+
+	@When("click on Add new button")
+	public void click_on_add_new_button() {
+		addNewCustPg.clickOnAddnew();
+	}
+
+	@Then("User can view Add new customer page")
+	public void user_can_view_add_new_customer_page() {
+		String actualTitle = addNewCustPg.getPageTitle();
+		String expectedTitle = "Add a new customer / nopCommerce administration";
+		
+		if(actualTitle.equals(expectedTitle))
+		{
+			Assert.assertTrue(true);//pass
+		}
+		else
+		{
+			Assert.assertTrue(false);//fail
+		}
+	}
+
+	@When("User enter customer info")
+	public void user_enter_customer_info() {
+		addNewCustPg.enterEmail("test1@gmail.com");
+		addNewCustPg.enterPassword("test1");
+		addNewCustPg.enterFirstName("Prachi");
+		addNewCustPg.enterLastName("Gupta");
+		addNewCustPg.enterGender("Female");
+		addNewCustPg.enterDob("6/13/1988");
+		addNewCustPg.enterCompanyName("CodeStudio");
+		addNewCustPg.enterAdminContent("Admin content");
+		addNewCustPg.enterManagerOfVendor("Vendor 1");
+		
+
+	}
+
+	@When("click on Save button")
+	public void click_on_save_button() {
+		addNewCustPg.clickOnSave();
+	}
+
+	@Then("User can view confirmation message {string}")
+	public void user_can_view_confirmation_message(String exptectedConfirmationMsg) {
+		
+		String bodyTagText = driver.findElement(By.tagName("Body")).getText();
+		if(bodyTagText.contains(exptectedConfirmationMsg))
+		{
+			Assert.assertTrue(true);//pass
+		}
+		else
+		{
+			Assert.assertTrue(false);//fail
+
+		}
+		
 	}
 
 }
