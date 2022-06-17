@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import PageObject.AddNewCustomerPage;
 import PageObject.LoginPage;
+import PageObject.SearchCustomerPage;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -14,6 +15,7 @@ public class StepDef {
 
 	public WebDriver driver;
 	public LoginPage loginPg;
+	public SearchCustomerPage SearchCustPg;
 	public AddNewCustomerPage addNewCustPg;
 
 
@@ -24,6 +26,7 @@ public class StepDef {
 
 		loginPg= new LoginPage(driver);
 		addNewCustPg = new AddNewCustomerPage(driver);
+		SearchCustPg = new SearchCustomerPage(driver);
 
 	}
 
@@ -94,11 +97,23 @@ public class StepDef {
 	@When("User click on customers Menu")
 	public void user_click_on_customers_menu() {
 		addNewCustPg.clickOnCustomersMenu();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@When("click on customers Menu Item")
 	public void click_on_customers_menu_item() {
 		addNewCustPg.clickOnCustomersMenuItem();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@When("click on Add new button")
@@ -110,7 +125,7 @@ public class StepDef {
 	public void user_can_view_add_new_customer_page() {
 		String actualTitle = addNewCustPg.getPageTitle();
 		String expectedTitle = "Add a new customer / nopCommerce administration";
-		
+
 		if(actualTitle.equals(expectedTitle))
 		{
 			Assert.assertTrue(true);//pass
@@ -123,7 +138,7 @@ public class StepDef {
 
 	@When("User enter customer info")
 	public void user_enter_customer_info() {
-		addNewCustPg.enterEmail("test1@gmail.com");
+		addNewCustPg.enterEmail("cs129@gmail.com");
 		addNewCustPg.enterPassword("test1");
 		addNewCustPg.enterFirstName("Prachi");
 		addNewCustPg.enterLastName("Gupta");
@@ -132,7 +147,7 @@ public class StepDef {
 		addNewCustPg.enterCompanyName("CodeStudio");
 		addNewCustPg.enterAdminContent("Admin content");
 		addNewCustPg.enterManagerOfVendor("Vendor 1");
-		
+
 
 	}
 
@@ -143,7 +158,7 @@ public class StepDef {
 
 	@Then("User can view confirmation message {string}")
 	public void user_can_view_confirmation_message(String exptectedConfirmationMsg) {
-		
+
 		String bodyTagText = driver.findElement(By.tagName("Body")).getText();
 		if(bodyTagText.contains(exptectedConfirmationMsg))
 		{
@@ -154,7 +169,68 @@ public class StepDef {
 			Assert.assertTrue(false);//fail
 
 		}
-		
+
+	}
+
+	////////////Search Customer//////////////////////////
+	@When("Enter customer EMail")
+	public void enter_customer_e_mail() {
+		SearchCustPg.enterEmailAdd("victoria_victoria@nopCommerce.com");
+	}
+
+	@When("Click on search button")
+	public void click_on_search_button() {
+		SearchCustPg.clickOnSearchButton();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Then("User should found Email in the Search table")
+	public void user_should_found_email_in_the_search_table() {
+		String expectedEmail = "victoria_victoria@nopCommerce.com";
+
+		//   Assert.assertTrue(SearchCustPg.searchCustomerByEmail(expectedEmail));
+
+		if( SearchCustPg.searchCustomerByEmail(expectedEmail) ==true)
+		{
+			Assert.assertTrue(true);
+		}
+		else
+			Assert.assertTrue(false);
+
+
+	}
+
+	///////////////search customer by name////////////////////
+
+
+	@When("Enter customer FirstName")
+	public void enter_customer_first_name() {
+		SearchCustPg.enterFirstName("Victoria");
+	}
+
+	@When("Enter customer LastName")
+	public void enter_customer_last_name() {
+		SearchCustPg.enterLastName("Terces");
+
+	}
+
+	@Then("User should found Name in the Search table")
+	public void user_should_found_name_in_the_search_table() {
+		String expectedName = "Victoria Terces";
+
+
+		if( SearchCustPg.searchCustomerByName(expectedName) ==true)
+		{
+			Assert.assertTrue(true);
+		}
+		else
+			Assert.assertTrue(false);
+
 	}
 
 }

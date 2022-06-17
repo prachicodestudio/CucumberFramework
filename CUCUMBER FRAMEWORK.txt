@@ -24,3 +24,23 @@ created step definition file for feature file (login test feature)
 created test runner file to run test case
 Generated test report
 	
+Session#2
+---------
+Data Driven Testing
+	Scenario outline keyword
+	Examples:
+Generated Reports in HTML, JSON & XML format
+Added new feature file (Add new customer)
+	Created feature file (customers.feature)
+	Added test steps in Gherkin language
+	Created page object class for add new customer page
+	created step definition for customers.feature file 
+	Executed test script (customers.feature) using test 	runner file (run.java)
+
+Session#3
+----------
+Added new scenarios in customers.feature file
+	Scenario: Search customer by email
+	Scenario: Search customer by name
+Background keyword : for common / repeating steps in scenarios
+
