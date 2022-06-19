@@ -44,3 +44,9 @@ Added new scenarios in customers.feature file
 	Scenario: Search customer by name
 Background keyword : for common / repeating steps in scenarios
 
+Session#4
+----------
+Base class 
+Executing multiple feature files
+@Tags (or , and & and not operator)
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Run" project="CucumberFramework" tests="5" started="5" failures="1" errors="0" ignored="0">
+  <testsuite name="TestRunner.Run" time="53.332">
+    <testsuite name="Customers" time="36.844">
+      <testcase name="Search Customer by Email" classname="Customers" time="16.728"/>
+      <testcase name="Search Customer by Name" classname="Customers" time="20.116"/>
+    </testsuite>
+    <testsuite name="Login" time="16.485">
+      <testcase name="Successful Login with Valid Credentials" classname="Login" time="6.72"/>
+      <testcase name="Successful Login with Valid Credentials DDT #1" classname="Login" time="6.914"/>
+      <testcase name="Successful Login with Valid Credentials DDT #2" classname="Login" time="2.851">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at StepDefinition.StepDef.page_title_should_be(StepDef.java:55)&#13;
+	at ✽.Page Title should be "Dashboard / nopCommerce administration"(file:///C:/Users/prach/Desktop/CodeStudio/CucumberFramework/./Features/LoginFeature.feature:20)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

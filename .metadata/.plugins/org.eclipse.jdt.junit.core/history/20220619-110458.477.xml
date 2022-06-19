@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Run" project="CucumberFramework" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="TestRunner.Run" time="42.557">
+    <testsuite name="Customers" time="34.926">
+      <testcase name="Search Customer by Email" classname="Customers" time="20.344"/>
+      <testcase name="Search Customer by Name" classname="Customers" time="14.582"/>
+    </testsuite>
+    <testsuite name="Login" time="7.628">
+      <testcase name="Successful Login with Valid Credentials DDT" classname="Login" time="7.628"/>
+    </testsuite>
+  </testsuite>
+</testrun>

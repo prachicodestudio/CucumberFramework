@@ -10,15 +10,10 @@ import PageObject.LoginPage;
 import PageObject.SearchCustomerPage;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
+/*Child class of Baseclass*/
+public class StepDef extends BaseClass {
 
-public class StepDef {
-
-	public WebDriver driver;
-	public LoginPage loginPg;
-	public SearchCustomerPage SearchCustPg;
-	public AddNewCustomerPage addNewCustPg;
-
-
+	
 	@Given("User Launch Chrome browser")
 	public void user_launch_chrome_browser() {
 		WebDriverManager.chromedriver().setup();
@@ -138,7 +133,8 @@ public class StepDef {
 
 	@When("User enter customer info")
 	public void user_enter_customer_info() {
-		addNewCustPg.enterEmail("cs129@gmail.com");
+		//addNewCustPg.enterEmail("cs129@gmail.com");
+		addNewCustPg.enterEmail(generateEmailId() + "@gmail.com");
 		addNewCustPg.enterPassword("test1");
 		addNewCustPg.enterFirstName("Prachi");
 		addNewCustPg.enterLastName("Gupta");

@@ -16,4 +16,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="PageObject.SearchCustomerPage"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang.RandomStringUtils"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.Before"/>
 </qualifiedTypeNameHistroy>
