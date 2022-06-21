@@ -7,7 +7,7 @@ Given User Launch Chrome browser
 	And Click on Login 
 	Then User can view Dashboad 
 	
-@Sanity
+@regression
 Scenario: Add New Customer
 
 	When User click on customers Menu 

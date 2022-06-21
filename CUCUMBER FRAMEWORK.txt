@@ -50,3 +50,18 @@ Base class
 Executing multiple feature files
 @Tags (or , and & and not operator)
 
+Session#5
+---------
+What are Hooks
+Types of hooks
+	Scenario hook: @Before //executed before start of  each scenario execution
+	& @After //executed after completion of each scenario execution
+	
+	Step Hooks: 
+	@Beforestep //executed before each step execution
+	@Afterstep //is executed before after each step execution
+
+	Conditional hook:@Before("@Sanity")
+
+How to capture screen shot of failed test scenarios
+

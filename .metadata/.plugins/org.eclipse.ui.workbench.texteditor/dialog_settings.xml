@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
-		<item key="wrap" value="true"/>
+		<item key="selection" value="Setup method executed"/>
+		<item key="wrap" value="false"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Setup method executed"/>
+			<item value="Setup"/>
+			<item value="POST /session/fb61cd4c9229a4b7b6d710eca0f9fbf2/element HTTP/1.1"/>
+			<item value="Tear Down"/>
+			<item value="setup"/>
 			<item value="sleep"/>
 			<item value="prachi"/>
 			<item value="TESTNG"/>
-			<item value="TEST"/>
-			<item value="set"/>
-			<item value="@CacheLookup"/>
 		</list>
 		<list key="replacehistory">
 			<item value="enter"/>
@@ -21,8 +23,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="779"/>
-		<item key="DIALOG_Y_ORIGIN" value="167"/>
+		<item key="DIALOG_X_ORIGIN" value="1299"/>
+		<item key="DIALOG_Y_ORIGIN" value="71"/>
 		<item key="DIALOG_WIDTH" value="385"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

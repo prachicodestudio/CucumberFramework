@@ -1,24 +1,52 @@
 package StepDefinition;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import PageObject.AddNewCustomerPage;
 import PageObject.LoginPage;
 import PageObject.SearchCustomerPage;
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Before;
+import io.cucumber.java.BeforeStep;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 /*Child class of Baseclass*/
 public class StepDef extends BaseClass {
 
-	
-	@Given("User Launch Chrome browser")
-	public void user_launch_chrome_browser() {
+	@Before("@Sanity")
+	public void setup1()
+	{
+		System.out.println("Setup-Sanity method executed..");
+
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 
+	}
+	
+	@Before("@regression")
+	public void setup2()
+	{
+		System.out.println("Setup2-Regression method executed..");
+
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+
+	}
+	
+	@Given("User Launch Chrome browser")
+	public void user_launch_chrome_browser() {
+		
 		loginPg= new LoginPage(driver);
 		addNewCustPg = new AddNewCustomerPage(driver);
 		SearchCustPg = new SearchCustomerPage(driver);
@@ -67,7 +95,7 @@ public class StepDef extends BaseClass {
 	@Then("close browser")
 	public void close_browser() {
 		driver.close();
-		driver.quit();
+		//driver.quit();
 	}
 
 
@@ -228,5 +256,56 @@ public class StepDef extends BaseClass {
 			Assert.assertTrue(false);
 
 	}
+	
+	@After
+	public void teardown(Scenario sc)
+	{
+		System.out.println("Tear Down method executed..");
+		if(sc.isFailed()==true)
+		{
+			//Convert web driver object to TakeScreenshot
 
+			String fileWithPath = "C:\\Users\\prach\\Desktop\\CodeStudio\\CucumberFramework\\Screenshot\\failedScreenshot.png";
+			TakesScreenshot scrShot =((TakesScreenshot)driver);
+
+			//Call getScreenshotAs method to create image file
+			File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+
+			//Move image file to new destination
+			File DestFile=new File(fileWithPath);
+
+			//Copy file at destination
+
+				try {
+					FileUtils.copyFile(SrcFile, DestFile);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		}
+		
+		driver.quit();
+	}
+	
+	/*@After
+	public void teardown2()
+	{
+		System.out.println("Tear Down method executed..");
+		driver.quit();
+	}*/
+	
+	/*@BeforeStep
+	public void beforeStepMethodDemo()
+	{
+		System.out.println("This is before step....");
+	}
+
+	
+	@AfterStep
+	public void afterStepMethodDemo()
+	{
+		System.out.println("This is after step....");
+	}*/
+
+	
 }
