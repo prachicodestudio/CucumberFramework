@@ -1,4 +1,4 @@
-session#1
+ session#1
 ---------------
 1. What is BDD
 2. BDD(Behavior Driven Testing)  vs TDD (Test Driven Testing)
@@ -64,4 +64,11 @@ Types of hooks
 	Conditional hook:@Before("@Sanity")
 
 How to capture screen shot of failed test scenarios
+
+Session#6
+------------
+Logger integration in eclipse
+	Apache-Log4j 2
+
+
 

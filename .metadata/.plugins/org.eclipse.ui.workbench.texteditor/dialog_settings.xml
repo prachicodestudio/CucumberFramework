@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Setup method executed"/>
+		<item key="selection" value="before"/>
 		<item key="wrap" value="false"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="Setup method executed"/>
+			<item value="Before"/>
+			<item value="After"/>
+			<item value="after"/>
+			<item value="before"/>
+			<item value="b"/>
 			<item value="Setup"/>
+			<item value="Setup method executed"/>
 			<item value="POST /session/fb61cd4c9229a4b7b6d710eca0f9fbf2/element HTTP/1.1"/>
 			<item value="Tear Down"/>
 			<item value="setup"/>

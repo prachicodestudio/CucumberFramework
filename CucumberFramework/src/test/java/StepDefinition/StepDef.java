@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -27,13 +28,18 @@ public class StepDef extends BaseClass {
 	@Before("@Sanity")
 	public void setup1()
 	{
+		//initialise logger
+		log = LogManager.getLogger("StepDef");
+
 		System.out.println("Setup-Sanity method executed..");
 
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		log.fatal("Setup1 executed...");
+
 
 	}
-	
+
 	@Before("@regression")
 	public void setup2()
 	{
@@ -41,32 +47,40 @@ public class StepDef extends BaseClass {
 
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-
+		log.info("Setup2 executed...");
 	}
-	
+
 	@Given("User Launch Chrome browser")
 	public void user_launch_chrome_browser() {
-		
+
 		loginPg= new LoginPage(driver);
 		addNewCustPg = new AddNewCustomerPage(driver);
 		SearchCustPg = new SearchCustomerPage(driver);
 
+		log.info("chrome browser launched");
 	}
 
 	@When("User opens URL {string}")
 	public void user_opens_url(String url) {
 		driver.get(url);
+		log.info("url opened");
+
 	}
 
 	@When("User enters Email as {string} and Password as {string}")
 	public void user_enters_email_as_and_password_as(String emailadd, String password) {
 		loginPg.enterEmail(emailadd);
 		loginPg.enterPassword(password);
+		log.info("email address and password entered");
+
 	}
 
 	@When("Click on Login")
 	public void click_on_login() {
 		loginPg.clickOnLoginButton();
+
+		log.info("Clicked on login button");
+
 	}
 
 	//////////Login feature///////////////////////////
@@ -76,11 +90,15 @@ public class StepDef extends BaseClass {
 
 		if(actualTitle.equals(expectedTitle))
 		{
+			log.warn("Test passed: Login feature :Page title matched.");
+
 			Assert.assertTrue(true);//pass
 		}
 		else
 		{
 			Assert.assertTrue(false);//fail
+			log.warn("Test Failed: Login feature- page title not matched.");
+
 
 		}
 
@@ -90,11 +108,15 @@ public class StepDef extends BaseClass {
 	@When("User click on Log out link")
 	public void user_click_on_log_out_link() {
 		loginPg.clickOnLogOutButton();
+		log.info("user clicked on logout link.");
+
 	}
 
 	@Then("close browser")
 	public void close_browser() {
 		driver.close();
+		log.info("Browser closed");
+
 		//driver.quit();
 	}
 
@@ -109,17 +131,23 @@ public class StepDef extends BaseClass {
 
 		if(actualTitle.equals(expectedTitle))
 		{
+			log.info("user can view dashboard test passed.");
 			Assert.assertTrue(true);
+
 		}
 		else
 		{
 			Assert.assertTrue(false);
+			log.warn("user can view dashboard test failed.");
+
 		}
 	}
 
 	@When("User click on customers Menu")
 	public void user_click_on_customers_menu() {
 		addNewCustPg.clickOnCustomersMenu();
+		log.info("customer menu clicked");
+
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
@@ -131,6 +159,8 @@ public class StepDef extends BaseClass {
 	@When("click on customers Menu Item")
 	public void click_on_customers_menu_item() {
 		addNewCustPg.clickOnCustomersMenuItem();
+		log.info("customer menu item clicked");
+
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
@@ -142,6 +172,8 @@ public class StepDef extends BaseClass {
 	@When("click on Add new button")
 	public void click_on_add_new_button() {
 		addNewCustPg.clickOnAddnew();
+		log.info("clicked on add new button.");
+
 	}
 
 	@Then("User can view Add new customer page")
@@ -151,10 +183,14 @@ public class StepDef extends BaseClass {
 
 		if(actualTitle.equals(expectedTitle))
 		{
+			log.info("User can view Add new customer page- passed");
+
 			Assert.assertTrue(true);//pass
 		}
 		else
 		{
+			log.info("User can view Add new customer page- failed");
+
 			Assert.assertTrue(false);//fail
 		}
 	}
@@ -172,12 +208,16 @@ public class StepDef extends BaseClass {
 		addNewCustPg.enterAdminContent("Admin content");
 		addNewCustPg.enterManagerOfVendor("Vendor 1");
 
+		log.info("customer information entered");
+
 
 	}
 
 	@When("click on Save button")
 	public void click_on_save_button() {
 		addNewCustPg.clickOnSave();
+		log.info("clicked on save button");
+
 	}
 
 	@Then("User can view confirmation message {string}")
@@ -187,9 +227,13 @@ public class StepDef extends BaseClass {
 		if(bodyTagText.contains(exptectedConfirmationMsg))
 		{
 			Assert.assertTrue(true);//pass
+			log.info("User can view confirmation message - passed");
+
 		}
 		else
 		{
+			log.warn("User can view confirmation message - failed");
+
 			Assert.assertTrue(false);//fail
 
 		}
@@ -200,11 +244,15 @@ public class StepDef extends BaseClass {
 	@When("Enter customer EMail")
 	public void enter_customer_e_mail() {
 		SearchCustPg.enterEmailAdd("victoria_victoria@nopCommerce.com");
+		log.info("Email address entered");
+
 	}
 
 	@When("Click on search button")
 	public void click_on_search_button() {
 		SearchCustPg.clickOnSearchButton();
+		log.info("Clicked on search button.");
+
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
@@ -222,9 +270,14 @@ public class StepDef extends BaseClass {
 		if( SearchCustPg.searchCustomerByEmail(expectedEmail) ==true)
 		{
 			Assert.assertTrue(true);
+			log.info("User should found Email in the Search table - passed");
+
 		}
-		else
+		else {
+			log.info("User should found Email in the Search table - passed");
 			Assert.assertTrue(false);
+
+		}
 
 
 	}
@@ -256,7 +309,7 @@ public class StepDef extends BaseClass {
 			Assert.assertTrue(false);
 
 	}
-	
+
 	@After
 	public void teardown(Scenario sc)
 	{
@@ -276,36 +329,36 @@ public class StepDef extends BaseClass {
 
 			//Copy file at destination
 
-				try {
-					FileUtils.copyFile(SrcFile, DestFile);
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+			try {
+				FileUtils.copyFile(SrcFile, DestFile);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
-		
+
 		driver.quit();
 	}
-	
+
 	/*@After
 	public void teardown2()
 	{
 		System.out.println("Tear Down method executed..");
 		driver.quit();
 	}*/
-	
+
 	/*@BeforeStep
 	public void beforeStepMethodDemo()
 	{
 		System.out.println("This is before step....");
 	}
 
-	
+
 	@AfterStep
 	public void afterStepMethodDemo()
 	{
 		System.out.println("This is after step....");
 	}*/
 
-	
+
 }
