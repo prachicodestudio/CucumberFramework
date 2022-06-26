@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Run" project="CucumberFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="TestRunner.Run" time="19.166">
+    <testsuite name="Login" time="19.166">
+      <testcase name="Successful Login with Valid Credentials" classname="Login" time="19.166">
+        <error>org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class="nav-link" href="/logout"&gt; is not clickable at point (1177,28) because another element &lt;div id="ajaxBusy"&gt; obscures it
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-CV42A7Q', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [aaa628f1-5926-429b-8ca4-25e25a728307, clickElement {id=340f0e1b-e039-4e2c-bcfc-804ecbe12edd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:debuggerAddress: localhost:54564, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14736, moz:profile: C:\Users\prach\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54564/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (aaa628f1-5926-429b-8ca4-25e25a728307)] -&gt; link text: Logout]
+Session ID: aaa628f1-5926-429b-8ca4-25e25a728307&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy37.click(Unknown Source)&#13;
+	at PageObject.LoginPage.clickOnLogOutButton(LoginPage.java:52)&#13;
+	at StepDefinition.StepDef.user_click_on_log_out_link(StepDef.java:142)&#13;
+	at ✽.User click on Log out link(file:///C:/Users/prach/Desktop/CodeStudio/CucumberFramework/./Features/LoginFeature.feature:10)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -70,5 +70,12 @@ Session#6
 Logger integration in eclipse
 	Apache-Log4j 2
 
+Session-7
+----------
+Run test cases / feature file on specific browser
+	configurtion.properties
+	read properties
+
+
 
 
