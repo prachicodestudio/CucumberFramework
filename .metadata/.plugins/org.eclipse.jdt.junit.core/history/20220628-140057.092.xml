@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Run (1)" project="CucumberFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="TestRunner.Run" time="12.343">
+    <testsuite name="Login" time="12.343">
+      <testcase name="Successful Login with Valid Credentials" classname="Login" time="12.343">
+        <error>java.lang.NullPointerException: Cannot invoke "PageObject.LoginPage.clickOnLogOutButton()" because "this.loginPg" is null&#13;
+	at StepDefinition.LogOutStep.user_click_on_log_out_link(LogOutStep.java:10)&#13;
+	at ✽.User click on Log out link(file:///C:/Users/prach/Desktop/CodeStudio/CucumberFramework/./Features/LoginFeature.feature:10)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

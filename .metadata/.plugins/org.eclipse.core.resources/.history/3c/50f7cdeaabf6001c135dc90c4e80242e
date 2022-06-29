@@ -1,0 +1,43 @@
+ //name=PropertiesConfig
+ 
+property.filename = logs
+appenders = console, file
+
+
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+
+appender.file.type = File
+appender.file.name = LOGFILE
+appender.file.fileName=${filename}/StepDef_${current.date.time}.log
+appender.file.layout.type=PatternLayout
+appender.file.layout.pattern=[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+
+appender.rolling.type = RollingFile
+appender.rolling.name = RollingFile
+appender.rolling.fileName = ${filename}/application.log
+appender.rolling.filePattern = ${filename}/application.%d{dd-MMM}.log.gz
+appender.rolling.layout.type = PatternLayout
+appender.rolling.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %m%n
+appender.rolling.policies.type = Policies
+appender.rolling.policies.size.type = SizeBasedTriggeringPolicy
+appender.rolling.policies.size.size=10MB
+appender.rolling.strategy.type = DefaultRolloverStrategy
+appender.rolling.strategy.max = 5
+ 
+logger.rolling.name = rollingFile
+logger.rolling.level = debug
+logger.rolling.additivity = false
+logger.rolling.appenderRef.rolling.ref = RollingFile
+
+loggers=file
+logger.file.name=StepDef
+logger.file.level = debug
+logger.file.appenderRefs = file
+logger.file.appenderRef.file.ref = LOGFILE
+
+rootLogger.level = off
+rootLogger.appenderRefs = stdout
+rootLogger.appenderRef.stdout.ref = STDOUT

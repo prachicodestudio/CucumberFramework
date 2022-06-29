@@ -76,6 +76,14 @@ Run test cases / feature file on specific browser
 	configurtion.properties
 	read properties
 
+Session#8
+----------
+Execute test case using pom.xml within eclipse
+Execute test case outside eclipse using maven(a build tool)
+	a) Command Line Interface (CLI)
+	b) Batch file
+	c) Jenkins
+
 
 
 

@@ -1,0 +1,22 @@
+package StepDefinition;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class LogOutStep extends BaseClass {
+
+	@When("User click on Log out link")
+	public void user_click_on_log_out_link() {
+		loginPg.clickOnLogOutButton();
+		log.info("user clicked on logout link.");
+
+	}
+
+	@Then("close browser")
+	public void close_browser() {
+		driver.close();
+		log.info("Browser closed");
+
+		//driver.quit();
+	}
+}

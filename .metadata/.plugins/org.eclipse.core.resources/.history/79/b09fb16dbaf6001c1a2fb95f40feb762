@@ -1,0 +1,27 @@
+[FATAL] 2022-06-28 13:12:09.916 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-28 13:12:09.942 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-28 13:12:10.983 [main] StepDef - url opened
+[INFO ] 2022-06-28 13:12:11.127 [main] StepDef - email address and password entered
+[INFO ] 2022-06-28 13:12:14.029 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-28 13:12:14.036 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-28 13:12:16.049 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-28 13:12:16.053 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-28 13:12:16.095 [main] StepDef - Browser closed
+[FATAL] 2022-06-28 13:39:25.550 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-28 13:39:25.581 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-28 13:39:28.365 [main] StepDef - url opened
+[INFO ] 2022-06-28 13:39:28.526 [main] StepDef - email address and password entered
+[INFO ] 2022-06-28 13:39:32.440 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-28 13:39:32.468 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-28 13:39:34.657 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-28 13:39:34.662 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-28 13:39:34.723 [main] StepDef - Browser closed
+[FATAL] 2022-06-28 13:44:41.783 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-28 13:44:41.838 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-28 13:44:44.154 [main] StepDef - url opened
+[INFO ] 2022-06-28 13:44:44.373 [main] StepDef - email address and password entered
+[INFO ] 2022-06-28 13:44:48.347 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-28 13:44:48.352 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-28 13:44:50.393 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-28 13:44:50.399 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-28 13:44:50.462 [main] StepDef - Browser closed
