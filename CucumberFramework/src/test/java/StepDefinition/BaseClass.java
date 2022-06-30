@@ -14,7 +14,7 @@ import org.apache.logging.log4j.*;
 
 /*Parent Class*/
 public class BaseClass {
-	public WebDriver driver;
+	public static  WebDriver driver;
 	public LoginPage loginPg;
 	public SearchCustomerPage SearchCustPg;
 	public AddNewCustomerPage addNewCustPg;

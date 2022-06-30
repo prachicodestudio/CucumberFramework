@@ -87,3 +87,52 @@ Execute test case outside eclipse using maven(a build tool)
 
 
 
+Session-9
+---------
+
+1. Running Cucumber with TestNG framework
+-------------------------------------- 
+Step 1. Update Pom.xml
+(a) Add:
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.3.4</version>
+</dependency>
+
+(b) Remove:
+Cucumber-junit dependency from pom.xml
+(c) save pom.xml
+
+Step2: Update maven project
+Right click on pom.xml->select maven->update project
+
+Step3:
+a) Open test runner file (run.java)
+b) Remove /comment out "@RunWith(Cucumber.class)"
+
+c) Instead of junit imports , use testng imports in run.java
+d) add "import io.cucumber.testng.AbstractTestNGCucumberTests;" in run.java
+e) extend this class from "AbstractTestNGCucumberTests"
+
+public class Run extends AbstractTestNGCucumberTests{
+	/*This class will be empty*/
+}
+
+Step 3:
+Create TestNG.xml file
+
+2. Created multiple step definition classes
+
+
+
+

@@ -1,0 +1,309 @@
+[FATAL] 2022-06-30 12:26:53.008 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 12:26:53.059 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 12:26:55.960 [main] StepDef - url opened
+[INFO ] 2022-06-30 12:26:56.173 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 12:27:00.439 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 12:27:00.449 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 12:27:02.322 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 12:27:02.328 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 12:27:02.402 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 12:52:44.932 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 12:52:45.044 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 12:52:50.034 [main] StepDef - url opened
+[INFO ] 2022-06-30 12:52:50.252 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 12:53:01.017 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 12:53:01.024 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 12:53:01.084 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 12:53:07.784 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 12:53:15.205 [main] StepDef - clicked on add new button.
+[INFO ] 2022-06-30 12:53:15.212 [main] StepDef - User can view Add new customer page- passed
+[INFO ] 2022-06-30 12:53:16.069 [main] StepDef - customer information entered
+[INFO ] 2022-06-30 12:53:17.867 [main] StepDef - clicked on save button
+[INFO ] 2022-06-30 12:53:18.477 [main] StepDef - User can view confirmation message - passed
+[INFO ] 2022-06-30 12:53:18.576 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 12:53:19.839 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 12:53:19.845 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 12:53:20.891 [main] StepDef - url opened
+[INFO ] 2022-06-30 12:53:21.184 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 12:53:25.677 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 12:53:25.685 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 12:53:25.745 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 12:53:29.537 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 12:53:31.630 [main] StepDef - Email address entered
+[INFO ] 2022-06-30 12:53:31.677 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 12:53:33.731 [main] StepDef - User should found Email in the Search table - passed
+[INFO ] 2022-06-30 12:53:33.818 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 12:53:35.020 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 12:53:35.023 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 12:53:36.756 [main] StepDef - url opened
+[INFO ] 2022-06-30 12:53:37.045 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 12:53:40.526 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 12:53:40.533 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 12:53:40.610 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 12:53:44.728 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 12:53:46.998 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 12:53:49.114 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 12:53:50.305 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 12:53:50.309 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 12:53:51.418 [main] StepDef - url opened
+[INFO ] 2022-06-30 12:53:51.713 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 12:53:56.086 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 12:53:56.169 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 12:53:57.713 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 12:53:57.718 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 12:53:57.790 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 12:53:58.800 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 12:53:58.802 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 12:54:00.161 [main] StepDef - url opened
+[INFO ] 2022-06-30 12:54:00.455 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 12:54:04.329 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 12:54:04.336 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 12:54:05.866 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 12:54:05.873 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 12:54:05.942 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 14:02:37.610 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 14:02:37.669 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 14:02:40.165 [main] StepDef - url opened
+[INFO ] 2022-06-30 14:02:40.485 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 14:02:44.847 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 14:02:44.853 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 14:02:44.948 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 14:02:48.812 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 14:02:52.849 [main] StepDef - clicked on add new button.
+[INFO ] 2022-06-30 14:02:52.856 [main] StepDef - User can view Add new customer page- passed
+[INFO ] 2022-06-30 14:02:53.646 [main] StepDef - customer information entered
+[INFO ] 2022-06-30 14:02:55.101 [main] StepDef - clicked on save button
+[INFO ] 2022-06-30 14:02:55.736 [main] StepDef - User can view confirmation message - passed
+[FATAL] 2022-06-30 14:02:57.158 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 14:02:57.160 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 14:02:58.616 [main] StepDef - url opened
+[INFO ] 2022-06-30 14:02:58.956 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 14:03:03.368 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 14:03:03.377 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 14:03:03.496 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 14:03:07.221 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 14:03:09.313 [main] StepDef - Email address entered
+[INFO ] 2022-06-30 14:03:09.357 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 14:03:11.411 [main] StepDef - User should found Email in the Search table - passed
+[FATAL] 2022-06-30 14:03:13.316 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 14:03:13.318 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 14:03:15.864 [main] StepDef - url opened
+[INFO ] 2022-06-30 14:03:16.082 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 14:03:20.076 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 14:03:20.082 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 14:03:20.174 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 14:03:23.698 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 14:03:25.905 [main] StepDef - Clicked on search button.
+[FATAL] 2022-06-30 14:04:35.892 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 14:04:35.956 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 14:04:39.935 [main] StepDef - url opened
+[INFO ] 2022-06-30 14:04:40.134 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 14:04:43.474 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 14:04:43.483 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 14:04:45.132 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 14:04:45.138 [main] StepDef - Test passed: Login feature :Page title matched.
+[FATAL] 2022-06-30 14:05:40.384 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 14:05:40.434 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 14:05:43.060 [main] StepDef - url opened
+[INFO ] 2022-06-30 14:05:43.363 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 14:05:47.713 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 14:05:47.721 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 14:05:49.779 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 14:05:49.785 [main] StepDef - Test passed: Login feature :Page title matched.
+[FATAL] 2022-06-30 14:05:50.982 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 14:05:50.987 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 14:05:52.048 [main] StepDef - url opened
+[INFO ] 2022-06-30 14:05:52.353 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 14:05:55.306 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 14:05:55.313 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 14:05:57.030 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 14:05:57.036 [main] StepDef - Test passed: Login feature :Page title matched.
+[FATAL] 2022-06-30 14:06:55.807 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 14:06:55.866 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 14:06:58.609 [main] StepDef - url opened
+[INFO ] 2022-06-30 14:06:58.822 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 14:07:03.756 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 14:07:03.765 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 14:07:05.595 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 14:07:05.602 [main] StepDef - Test passed: Login feature :Page title matched.
+[FATAL] 2022-06-30 15:20:55.539 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 15:20:55.597 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 15:20:59.008 [main] StepDef - url opened
+[INFO ] 2022-06-30 15:20:59.283 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 15:21:10.769 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 15:21:10.779 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 15:21:12.480 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 15:21:12.491 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 15:21:12.620 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 15:59:14.299 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 15:59:14.349 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 15:59:20.125 [main] StepDef - url opened
+[INFO ] 2022-06-30 15:59:20.377 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 15:59:28.806 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 15:59:28.813 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 15:59:28.884 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 15:59:33.213 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 15:59:36.764 [main] StepDef - clicked on add new button.
+[INFO ] 2022-06-30 15:59:37.313 [main] StepDef - User can view Add new customer page- passed
+[INFO ] 2022-06-30 15:59:38.652 [main] StepDef - customer information entered
+[INFO ] 2022-06-30 15:59:40.972 [main] StepDef - clicked on save button
+[INFO ] 2022-06-30 15:59:41.651 [main] StepDef - User can view confirmation message - passed
+[INFO ] 2022-06-30 15:59:41.790 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 15:59:42.851 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 15:59:42.853 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 15:59:45.012 [main] StepDef - url opened
+[INFO ] 2022-06-30 15:59:45.238 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 15:59:50.398 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 15:59:50.410 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 15:59:50.494 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 15:59:55.080 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 15:59:57.215 [main] StepDef - Email address entered
+[INFO ] 2022-06-30 15:59:57.288 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 15:59:59.349 [main] StepDef - User should found Email in the Search table - passed
+[INFO ] 2022-06-30 15:59:59.448 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:00:00.361 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:00:00.364 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:00:02.934 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:00:03.136 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:00:11.651 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 16:00:11.660 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 16:00:11.739 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 16:00:16.599 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 16:00:18.832 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 16:00:20.958 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:00:33.045 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:00:33.086 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:00:34.716 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:00:34.962 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:00:39.044 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 16:00:39.058 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:00:41.539 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 16:00:41.548 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:00:41.631 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:00:42.607 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:00:42.612 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:00:44.121 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:00:44.351 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:00:48.129 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 16:00:48.143 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:00:50.846 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 16:00:50.854 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:00:50.937 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:03:49.715 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:03:49.759 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:03:52.480 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:03:52.798 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:04:09.543 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 16:04:09.555 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:04:13.285 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 16:04:13.298 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:04:13.382 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:05:31.066 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:05:31.105 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:05:33.790 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:05:34.023 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:05:39.559 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 16:05:39.570 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 16:05:39.660 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 16:05:44.989 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 16:05:51.320 [main] StepDef - clicked on add new button.
+[INFO ] 2022-06-30 16:05:51.352 [main] StepDef - User can view Add new customer page- passed
+[INFO ] 2022-06-30 16:05:52.368 [main] StepDef - customer information entered
+[INFO ] 2022-06-30 16:05:54.179 [main] StepDef - clicked on save button
+[INFO ] 2022-06-30 16:05:54.854 [main] StepDef - User can view confirmation message - passed
+[INFO ] 2022-06-30 16:05:54.920 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:05:55.852 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:05:55.854 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:05:58.289 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:05:58.500 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:06:02.212 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 16:06:02.222 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 16:06:02.313 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 16:06:08.215 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 16:06:10.342 [main] StepDef - Email address entered
+[INFO ] 2022-06-30 16:06:10.413 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 16:06:12.464 [main] StepDef - User should found Email in the Search table - passed
+[INFO ] 2022-06-30 16:06:12.577 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:06:13.507 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:06:13.510 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:06:16.109 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:06:16.346 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:06:20.857 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 16:06:20.864 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 16:06:20.966 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 16:06:25.245 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 16:06:27.466 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 16:06:29.609 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:40:34.005 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:40:34.057 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:40:36.493 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:40:36.752 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:40:40.929 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 16:40:40.936 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:40:43.005 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 16:40:43.012 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:40:43.141 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:40:44.269 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:40:44.275 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:40:50.968 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:40:51.164 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:40:57.335 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 16:40:57.343 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:40:59.372 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 16:40:59.378 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:40:59.453 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:41:17.209 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:41:17.268 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:41:20.036 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:41:20.328 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:41:24.520 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 16:41:24.527 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 16:41:24.669 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 16:41:27.576 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 16:41:31.097 [main] StepDef - clicked on add new button.
+[INFO ] 2022-06-30 16:41:31.102 [main] StepDef - User can view Add new customer page- passed
+[INFO ] 2022-06-30 16:41:31.843 [main] StepDef - customer information entered
+[INFO ] 2022-06-30 16:41:34.548 [main] StepDef - clicked on save button
+[INFO ] 2022-06-30 16:41:35.154 [main] StepDef - User can view confirmation message - passed
+[INFO ] 2022-06-30 16:41:35.267 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:41:36.380 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:41:36.382 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:41:37.801 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:41:38.098 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:41:42.167 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 16:41:42.174 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 16:41:42.265 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 16:41:45.854 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 16:41:47.940 [main] StepDef - Email address entered
+[INFO ] 2022-06-30 16:41:48.000 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 16:41:50.049 [main] StepDef - User should found Email in the Search table - passed
+[INFO ] 2022-06-30 16:41:50.141 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:41:51.371 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:41:51.374 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:41:52.544 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:41:52.931 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:41:56.060 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 16:41:56.068 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 16:41:56.155 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 16:41:59.617 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 16:42:01.820 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 16:42:03.946 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:45:42.483 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:45:42.521 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:45:44.804 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:45:44.979 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:45:49.245 [main] StepDef - Clicked on login button
+[INFO ] 2022-06-30 16:45:49.253 [main] StepDef - user can view dashboard test passed.
+[INFO ] 2022-06-30 16:45:49.315 [main] StepDef - customer menu clicked
+[INFO ] 2022-06-30 16:45:52.790 [main] StepDef - customer menu item clicked
+[INFO ] 2022-06-30 16:45:54.985 [main] StepDef - Clicked on search button.
+[INFO ] 2022-06-30 16:45:57.121 [main] StepDef - Browser closed
+[FATAL] 2022-06-30 16:45:58.250 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-30 16:45:58.254 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-30 16:45:59.525 [main] StepDef - url opened
+[INFO ] 2022-06-30 16:45:59.836 [main] StepDef - email address and password entered
+[INFO ] 2022-06-30 16:46:04.236 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-30 16:46:04.242 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:46:06.386 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-30 16:46:06.393 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-30 16:46:06.467 [main] StepDef - Browser closed

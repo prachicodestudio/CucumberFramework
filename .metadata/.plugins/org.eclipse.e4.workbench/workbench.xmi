@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_cGc5EPbWEeyNfaMMONr_GQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_cGc5EfbWEeyNfaMMONr_GQ" bindingContexts="_cGewGfbWEeyNfaMMONr_GQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Run.java&quot; tooltip=&quot;CucumberFramework/src/test/java/TestRunner/Run.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/TestRunner/Run.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;CucumberFramework/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StepDef.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/StepDef.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/StepDef.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LogOutStep.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/LogOutStep.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/LogOutStep.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.agileware.natural.cucumber.Cucumber&quot; name=&quot;LoginFeature.feature&quot; tooltip=&quot;CucumberFramework/Features/LoginFeature.feature&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/Features/LoginFeature.feature&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;Chrome HTML Document&quot; name=&quot;reports_html.html&quot; tooltip=&quot;CucumberFramework/target/cucumber-reports/reports_html.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/target/cucumber-reports/reports_html.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;mylog.log&quot; tooltip=&quot;CucumberFramework/logs/mylog.log&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/logs/mylog.log&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;log4j2.properties&quot; tooltip=&quot;CucumberFramework/src/main/resource/log4j2.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/main/resource/log4j2.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;config.properties&quot; tooltip=&quot;CucumberFramework/config.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/config.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;Chrome HTML Document&quot; name=&quot;index.html&quot; tooltip=&quot;CucumberFramework/test-output/index.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/test-output/index.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;application.log&quot; tooltip=&quot;CucumberFramework/logs/application.log&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/logs/application.log&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;StepDef_${current.date.time}.log&quot; tooltip=&quot;CucumberFramework/logs/StepDef_${current.date.time}.log&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/logs/StepDef_${current.date.time}.log&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BaseClass.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/BaseClass.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/BaseClass.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Log4jDemo_${current.date.time}.log&quot; tooltip=&quot;CucumberFramework/logs/Log4jDemo_${current.date.time}.log&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/logs/Log4jDemo_${current.date.time}.log&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;testng.xml&quot; tooltip=&quot;CucumberFramework/testng.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/testng.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;TestNG.xml&quot; tooltip=&quot;CucumberFramework/TestNG.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/TestNG.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ReadConfig.java&quot; tooltip=&quot;CucumberFramework/src/test/java/Utitlities/ReadConfig.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/Utitlities/ReadConfig.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AddNewCustomerPage.java&quot; tooltip=&quot;CucumberFramework/src/test/java/PageObject/AddNewCustomerPage.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/PageObject/AddNewCustomerPage.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;failedScreenshot.png&quot; tooltip=&quot;CucumberFramework/Screenshot/failedScreenshot.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/Screenshot/failedScreenshot.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Scenario.class&quot; tooltip=&quot;io.cucumber.java.Scenario&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=CucumberFramework/C:\/Users\/prach\/.m2\/repository\/io\/cucumber\/cucumber-java\/7.3.4\/cucumber-java-7.3.4.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/io.cucumber=/=/maven.artifactId=/cucumber-java=/=/maven.version=/7.3.4=/=/maven.scope=/compile=/&amp;lt;io.cucumber.java(Scenario.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;Chrome HTML Document&quot; name=&quot;reports_html.html&quot; tooltip=&quot;CucumberFramework/target/cucumber-reports/reports_html.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/target/cucumber-reports/reports_html.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;Chrome HTML Document&quot; name=&quot;emailable-report.html&quot; tooltip=&quot;CucumberFramework/test-output/emailable-report.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/test-output/emailable-report.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;Chrome HTML Document&quot; name=&quot;index.html&quot; tooltip=&quot;CucumberFramework/test-output/index.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/test-output/index.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.agileware.natural.cucumber.Cucumber&quot; name=&quot;Customers.feature&quot; tooltip=&quot;CucumberFramework/Features/Customers.feature&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/Features/Customers.feature&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BaseClass.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/BaseClass.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/BaseClass.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CloseStep.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/CloseStep.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/CloseStep.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StepDef.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/StepDef.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/StepDef.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;testng.xml&quot; tooltip=&quot;CucumberFramework/testng.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/testng.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.agileware.natural.cucumber.Cucumber&quot; name=&quot;LoginFeature.feature&quot; tooltip=&quot;CucumberFramework/Features/LoginFeature.feature&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/Features/LoginFeature.feature&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CloseSteps.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/CloseSteps.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/CloseSteps.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StepDefClose.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/StepDefClose.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/StepDefClose.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;mylog.log&quot; tooltip=&quot;CucumberFramework/logs/mylog.log&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/logs/mylog.log&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Run.java&quot; tooltip=&quot;CucumberFramework/src/test/java/TestRunner/Run.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/TestRunner/Run.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;CucumberFramework/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;passed.png&quot; tooltip=&quot;CucumberFramework/test-output/passed.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/test-output/passed.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.agileware.natural.cucumber.Cucumber&quot; name=&quot;LoginFeature.feature&quot; tooltip=&quot;CucumberFramework/src/test/java/TestRunner/LoginFeature.feature&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/TestRunner/LoginFeature.feature&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LogOutStep.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/LogOutStep.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/test/java/StepDefinition/LogOutStep.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;log4j2.properties&quot; tooltip=&quot;CucumberFramework/src/main/resource/log4j2.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/src/main/resource/log4j2.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;config.properties&quot; tooltip=&quot;CucumberFramework/config.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/config.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;application.log&quot; tooltip=&quot;CucumberFramework/logs/application.log&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CucumberFramework/logs/application.log&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_cGc5EfbWEeyNfaMMONr_GQ" selectedElement="_cGc5EvbWEeyNfaMMONr_GQ" x="0" y="0" width="1942" height="549">
     <persistedState key="coolBarVisible" value="true"/>
@@ -74,8 +74,9 @@
           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
           <tags>persp.newWizSC:org.eclipse.jst.jsp.ui.internal.wizard.NewJSPWizard</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_cGc5FfbWEeyNfaMMONr_GQ" selectedElement="_cGc5G_bWEeyNfaMMONr_GQ" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_cGc5FfbWEeyNfaMMONr_GQ" selectedElement="_cGc5FvbWEeyNfaMMONr_GQ" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_cGc5FvbWEeyNfaMMONr_GQ" elementId="topLeft" containerData="2063" selectedElement="_cGc5F_bWEeyNfaMMONr_GQ">
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_cGc5F_bWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_cGeHofbWEeyNfaMMONr_GQ" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -93,10 +94,10 @@
                 <tags>categoryTag:Java Browsing</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_cGc5G_bWEeyNfaMMONr_GQ" containerData="7937" selectedElement="_cGdgIPbWEeyNfaMMONr_GQ" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_cGdgIPbWEeyNfaMMONr_GQ" containerData="5000" selectedElement="_cGdgIfbWEeyNfaMMONr_GQ">
-                <children xsi:type="advanced:Placeholder" xmi:id="_cGdgIfbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.editorss" containerData="7300" ref="_cGeHPfbWEeyNfaMMONr_GQ"/>
-                <children xsi:type="basic:PartStack" xmi:id="_cGdgIvbWEeyNfaMMONr_GQ" elementId="bottomRight" containerData="1981" selectedElement="_cGdgKvbWEeyNfaMMONr_GQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_cGc5G_bWEeyNfaMMONr_GQ" containerData="7937" selectedElement="_3vXb4PhBEeyQMoygZD6F5Q" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_3vXb4PhBEeyQMoygZD6F5Q" containerData="5000" selectedElement="_cGdgIvbWEeyNfaMMONr_GQ">
+                <children xsi:type="advanced:Placeholder" xmi:id="_cGdgIfbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.editorss" containerData="6787" ref="_cGeHPfbWEeyNfaMMONr_GQ"/>
+                <children xsi:type="basic:PartStack" xmi:id="_cGdgIvbWEeyNfaMMONr_GQ" elementId="bottomRight" containerData="3213" selectedElement="_cGdgL_bWEeyNfaMMONr_GQ">
                   <tags>Java</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_cGdgI_bWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.views.AllMarkersView" toBeRendered="false" ref="_cGeIBPbWEeyNfaMMONr_GQ" closeable="true">
                     <tags>View</tags>
@@ -126,11 +127,6 @@
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
                   </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_cGdgKvbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_cGeIFfbWEeyNfaMMONr_GQ" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:General</tags>
-                    <tags>active</tags>
-                  </children>
                   <children xsi:type="advanced:Placeholder" xmi:id="_cGdgK_bWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_cGeIJ_bWEeyNfaMMONr_GQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -143,14 +139,19 @@
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
                   </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_cGdgLvbWEeyNfaMMONr_GQ" elementId="org.eclipse.jdt.junit.ResultView" ref="_cGeIMfbWEeyNfaMMONr_GQ" closeable="true">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_cGdgLvbWEeyNfaMMONr_GQ" elementId="org.eclipse.jdt.junit.ResultView" toBeRendered="false" ref="_cGeIMfbWEeyNfaMMONr_GQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:Java</tags>
                     <tags>highlighted</tags>
                   </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_cGdgL_bWEeyNfaMMONr_GQ" elementId="org.testng.eclipse.ResultView" toBeRendered="false" ref="_cGeIT_bWEeyNfaMMONr_GQ" closeable="true">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_cGdgL_bWEeyNfaMMONr_GQ" elementId="org.testng.eclipse.ResultView" ref="_cGeIT_bWEeyNfaMMONr_GQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:Java</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_cGdgKvbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_cGeIFfbWEeyNfaMMONr_GQ" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                    <tags>active</tags>
                   </children>
                 </children>
               </children>
@@ -206,32 +207,47 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_cGeHPfbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.editorss" selectedElement="_cGeHPvbWEeyNfaMMONr_GQ">
-      <children xsi:type="basic:PartStack" xmi:id="_cGeHPvbWEeyNfaMMONr_GQ" elementId="PartStack@24d7657b" selectedElement="_cGeHP_bWEeyNfaMMONr_GQ">
+      <children xsi:type="basic:PartStack" xmi:id="_cGeHPvbWEeyNfaMMONr_GQ" elementId="PartStack@24d7657b" selectedElement="_uz22QPg9EeyQMoygZD6F5Q">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <tags>noFocus</tags>
-        <children xsi:type="basic:Part" xmi:id="_cGeHP_bWEeyNfaMMONr_GQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Run.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Run.java&quot; partName=&quot;Run.java&quot; title=&quot;Run.java&quot; tooltip=&quot;CucumberFramework/src/test/java/TestRunner/Run.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/src/test/java/TestRunner/Run.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;17&quot; selectionOffset=&quot;404&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_uz22QPg9EeyQMoygZD6F5Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Run.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Run.java&quot; partName=&quot;Run.java&quot; title=&quot;Run.java&quot; tooltip=&quot;CucumberFramework/src/test/java/TestRunner/Run.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/src/test/java/TestRunner/Run.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;592&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>active</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_cGeHjvbWEeyNfaMMONr_GQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CucumberFramework/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;CucumberFramework/pom.xml&quot; title=&quot;CucumberFramework/pom.xml&quot; tooltip=&quot;CucumberFramework/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_ViciwPhFEeyQMoygZD6F5Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="LoginFeature.feature" iconURI="platform:/plugin/org.agileware.natural.cucumber.ui/icons/feature.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.agileware.natural.cucumber.Cucumber&quot; name=&quot;LoginFeature.feature&quot; partName=&quot;LoginFeature.feature&quot; title=&quot;LoginFeature.feature&quot; tooltip=&quot;CucumberFramework/Features/LoginFeature.feature&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/Features/LoginFeature.feature&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;432&quot; selectionOffset=&quot;19&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
-          <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
+          <tags>org.agileware.natural.cucumber.Cucumber</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_cGeHmfbWEeyNfaMMONr_GQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="mylog.log" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;mylog.log&quot; partName=&quot;mylog.log&quot; title=&quot;mylog.log&quot; tooltip=&quot;CucumberFramework/logs/mylog.log&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/logs/mylog.log&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;703&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_7ne78PhMEeyQMoygZD6F5Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="mylog.log" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;mylog.log&quot; partName=&quot;mylog.log&quot; title=&quot;mylog.log&quot; tooltip=&quot;CucumberFramework/logs/mylog.log&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/logs/mylog.log&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;5378&quot; selectionTopPixel=&quot;1680&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.ui.DefaultTextEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_cGeHnfbWEeyNfaMMONr_GQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="LoginFeature.feature" iconURI="platform:/plugin/org.agileware.natural.cucumber.ui/icons/feature.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.agileware.natural.cucumber.Cucumber&quot; name=&quot;LoginFeature.feature&quot; partName=&quot;LoginFeature.feature&quot; title=&quot;LoginFeature.feature&quot; tooltip=&quot;CucumberFramework/Features/LoginFeature.feature&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/Features/LoginFeature.feature&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;435&quot; selectionOffset=&quot;19&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_9a44oPhfEeyQMoygZD6F5Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="testng.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;testng.xml&quot; partName=&quot;testng.xml&quot; title=&quot;testng.xml&quot; tooltip=&quot;CucumberFramework/testng.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/testng.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;196&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_iL6MkPhkEeyQMoygZD6F5Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CloseStep.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CloseStep.java&quot; partName=&quot;CloseStep.java&quot; title=&quot;CloseStep.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/CloseStep.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/src/test/java/StepDefinition/CloseStep.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;130&quot; selectionOffset=&quot;112&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_k_YZwPhkEeyQMoygZD6F5Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BaseClass.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BaseClass.java&quot; partName=&quot;BaseClass.java&quot; title=&quot;BaseClass.java&quot; tooltip=&quot;CucumberFramework/src/test/java/StepDefinition/BaseClass.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/src/test/java/StepDefinition/BaseClass.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;25&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_Hs9MEPhlEeyQMoygZD6F5Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Customers.feature" iconURI="platform:/plugin/org.agileware.natural.cucumber.ui/icons/feature.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.agileware.natural.cucumber.Cucumber&quot; name=&quot;Customers.feature&quot; partName=&quot;Customers.feature&quot; title=&quot;Customers.feature&quot; tooltip=&quot;CucumberFramework/Features/Customers.feature&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CucumberFramework/Features/Customers.feature&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;46&quot; selectionOffset=&quot;920&quot; selectionTopPixel=&quot;644&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.agileware.natural.cucumber.Cucumber</tags>
@@ -244,11 +260,13 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1655379634005&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;1&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_cGeHovbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_cGeH-PbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.navigator.ProjectExplorer"/>
+      <toolbar xmi:id="_cGeH-PbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_cGeH__bWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.views.ResourceNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Navigator (Deprecated)" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/filenav_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
@@ -356,7 +374,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_cGeIGPbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_cGeIGPbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_cGeIJ_bWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
@@ -412,14 +430,13 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view failuresOnly=&quot;true&quot; ignoredOnly=&quot;false&quot; layout=&quot;1&quot; orientation=&quot;0&quot; ratio=&quot;244&quot; scroll=&quot;true&quot; sortingCriterion=&quot;0&quot; time=&quot;false&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
-      <tags>highlighted</tags>
       <menus xmi:id="_cGeIMvbWEeyNfaMMONr_GQ" elementId="org.eclipse.jdt.junit.ResultView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
       <toolbar xmi:id="_cGeIRPbWEeyNfaMMONr_GQ" elementId="org.eclipse.jdt.junit.ResultView" visible="false"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_cGeIT_bWEeyNfaMMONr_GQ" elementId="org.testng.eclipse.ResultView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="TestNG" iconURI="platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif" tooltip="" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_cGeIT_bWEeyNfaMMONr_GQ" elementId="org.testng.eclipse.ResultView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Results of running suite" iconURI="platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.testng.eclipse"/>
       <persistedState key="originalCompatibilityViewClass" value="org.testng.eclipse.ui.TestRunnerViewPart"/>
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view FailureRunView.tab.title.ratio=&quot;500&quot; HierarchyRunView.tab.title.ratio=&quot;500&quot; orientation=&quot;2&quot; page=&quot;0&quot;/>"/>
@@ -438,7 +455,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_cGeIVfbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_cGeIXfbWEeyNfaMMONr_GQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_cGgjifbWEeyNfaMMONr_GQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_iqgYcPg1EeyQMoygZD6F5Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_cGgjifbWEeyNfaMMONr_GQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_cGeIYvbWEeyNfaMMONr_GQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -475,19 +492,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_cGeIxvbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_cGeIzPbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_cGgAkfbWEeyNfaMMONr_GQ"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_cGeI0fbWEeyNfaMMONr_GQ" elementId="org.agileware.natural.cucumber.Cucumber" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_cGeI0_bWEeyNfaMMONr_GQ" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_cGeI1PbWEeyNfaMMONr_GQ" elementId="org.eclipse.m2e.editor.MavenPomEditor" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_cGeI1fbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.DefaultTextEditor" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_iqgYffg1EeyQMoygZD6F5Q" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_cGgAkfbWEeyNfaMMONr_GQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_cGeI1vbWEeyNfaMMONr_GQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1817,18 +1822,18 @@
     <tags>View</tags>
     <tags>categoryTag:Java</tags>
   </descriptors>
-  <trimContributions xmi:id="_cGf9gfbWEeyNfaMMONr_GQ" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
-    <children xsi:type="menu:ToolControl" xmi:id="_cGf9gvbWEeyNfaMMONr_GQ" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
       <tags>move_after:PerspectiveSpacer</tags>
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
-    <children xsi:type="menu:ToolControl" xmi:id="_cGf9g_bWEeyNfaMMONr_GQ" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
       <tags>move_after:Spacer Glue</tags>
       <tags>HIDEABLE</tags>
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
-    <children xsi:type="menu:ToolControl" xmi:id="_cGf9hPbWEeyNfaMMONr_GQ" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
       <tags>move_after:SearchField</tags>
       <tags>SHOW_RESTORE_MENU</tags>

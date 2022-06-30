@@ -29,7 +29,7 @@ Scenario: Add New Customer
 	Then User should found Email in the Search table
 	And close browser 
 	
-	@regression
+	@Sanity
 	Scenario: Search Customer by Name
 	
 	When User click on customers Menu 

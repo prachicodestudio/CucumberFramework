@@ -1,0 +1,30 @@
+package TestRunner;
+//import org.junit.runner.RunWith;
+
+import org.junit.runner.RunWith;
+
+//import io.cucumber.junit.Cucumber;
+//import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+//import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+//@RunWith(Cucumber.class)
+@CucumberOptions(
+		//C:\Users\prach\Desktop\CodeStudio\CucumberFramework\Features\LoginFeature.feature
+		//features = {".//Features/LoginFeature.feature"},
+		//features = {"/CucumberFramework/Features/LoginFeature.feature"},
+		features = {".//Features/"},
+
+		glue="StepDefinition",
+		dryRun = true,
+		monochrome = true,
+		tags = "@Sanity",//scenarios under @sanity tag will be executed
+		plugin = {"pretty","html:target/cucumber-reports/reports_html.html"}
+		)
+
+//plugin = {"pretty","html:target/cucumber-reports/reports1.html"}
+//		plugin = {"pretty","json:target/cucumber-reports/report_json.json"}
+
+public class Run extends AbstractTestNGCucumberTests{
+	/*This class will be empty*/
+}

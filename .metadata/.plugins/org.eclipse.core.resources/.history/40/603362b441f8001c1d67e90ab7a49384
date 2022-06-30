@@ -1,0 +1,36 @@
+[FATAL] 2022-06-29 19:52:55.796 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-29 19:52:55.821 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-29 19:52:57.265 [main] StepDef - url opened
+[INFO ] 2022-06-29 19:52:57.417 [main] StepDef - email address and password entered
+[INFO ] 2022-06-29 19:52:59.853 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-29 19:52:59.897 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-29 19:53:01.738 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-29 19:53:01.743 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-29 19:53:01.791 [main] StepDef - Browser closed
+[FATAL] 2022-06-29 19:53:39.476 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-29 19:53:39.503 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-29 19:53:42.567 [main] StepDef - url opened
+[INFO ] 2022-06-29 19:53:42.714 [main] StepDef - email address and password entered
+[INFO ] 2022-06-29 19:53:46.812 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-29 19:53:46.818 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-29 19:53:48.743 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-29 19:53:48.748 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-29 19:53:48.811 [main] StepDef - Browser closed
+[FATAL] 2022-06-29 19:53:57.926 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-29 19:53:57.949 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-29 19:53:59.961 [main] StepDef - url opened
+[INFO ] 2022-06-29 19:54:00.105 [main] StepDef - email address and password entered
+[INFO ] 2022-06-29 19:54:03.990 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-29 19:54:04.031 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-29 19:54:06.146 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-29 19:54:06.151 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-29 19:54:06.213 [main] StepDef - Browser closed
+[FATAL] 2022-06-29 20:18:56.051 [main] StepDef - Setup1 executed...
+[INFO ] 2022-06-29 20:18:56.095 [main] StepDef - chrome browser launched
+[INFO ] 2022-06-29 20:18:58.700 [main] StepDef - url opened
+[INFO ] 2022-06-29 20:18:58.887 [main] StepDef - email address and password entered
+[INFO ] 2022-06-29 20:19:02.773 [main] StepDef - Clicked on login button
+[WARN ] 2022-06-29 20:19:02.779 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-29 20:19:04.745 [main] StepDef - user clicked on logout link.
+[WARN ] 2022-06-29 20:19:04.751 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2022-06-29 20:19:04.817 [main] StepDef - Browser closed
